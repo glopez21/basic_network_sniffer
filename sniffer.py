@@ -6,6 +6,8 @@ if we want to see a detailed lists of all the scapy methjods available we should
 
 import logging
 import subprocess
+import sys
+from scapy.all import *
 
 #This will suppress all messages that have a lower level of seriousness than error messages, while running or loading Scapy
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
