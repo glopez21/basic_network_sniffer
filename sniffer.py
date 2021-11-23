@@ -8,10 +8,7 @@ import logging
 from datetime import datetime
 import subprocess
 import sys
-<<<<<<< HEAD
-from scapy.all import *
-=======
->>>>>>> a0c2128450e5fbef8b604637b003371c26d6a2a5
+
 
 #This will suppress all messages that have a lower level of seriousness than error messages, while running or loading Scapy
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
